@@ -7,7 +7,10 @@ __pycache/
 
 .env
 
-logs/app_log
+logs/
+*.app_log
+
+*.db
 
 .idea/
 

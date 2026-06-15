@@ -3,7 +3,7 @@ import sqlite3
 
 BASE_DIR = Path(__file__).resolve().parent
 
-DB_PATH = BASE_DIR / "data" / "test_game.db"
+DB_PATH = BASE_DIR / "data" / "quiz.db"
 
 def get_connection():
     return sqlite3.connect(DB_PATH)
