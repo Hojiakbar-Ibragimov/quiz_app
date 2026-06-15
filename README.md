@@ -60,8 +60,8 @@ Handlers → Services → Repositories → Database
 ## Installation
 
 ```bash
-git clone <repo_url>
-cd quiz_app
+git clone <https://github.com/Hojiakbar-developer/quiz_app.git>
+cd quiz_bot
 pip install -r requirements.txt
 ```
 
