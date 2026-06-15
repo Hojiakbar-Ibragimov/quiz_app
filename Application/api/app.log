@@ -1,0 +1,16 @@
+2026-06-14 17:40:41,180 | INFO | Scheduler started
+2026-06-14 17:40:59,868 | INFO | Received signal 2 (SIGINT), stopping...
+2026-06-14 17:40:59,868 | INFO | Scheduler has been shut down
+2026-06-14 18:12:24,168 | INFO | Scheduler started
+2026-06-14 18:12:40,640 | INFO | Received signal 2 (SIGINT), stopping...
+2026-06-14 18:12:40,640 | INFO | Scheduler has been shut down
+2026-06-14 18:16:10,874 | INFO | Scheduler started
+2026-06-14 18:16:31,040 | INFO | User 938686316 changed language to uz
+2026-06-14 18:17:59,866 | INFO | User 938686316 Started game
+2026-06-14 18:18:18,290 | INFO | User 938686316 used help
+2026-06-14 18:18:29,418 | INFO | User 938686316 (Hojiakbar) finished game
+2026-06-14 18:18:38,858 | INFO | User 938686316 Started game
+2026-06-14 18:19:43,197 | INFO | User 938686316 used help
+2026-06-14 18:23:12,363 | INFO | User 938686316 (Hojiakbar) finished game
+2026-06-14 18:23:52,875 | INFO | Received signal 2 (SIGINT), stopping...
+2026-06-14 18:23:52,891 | INFO | Scheduler has been shut down
