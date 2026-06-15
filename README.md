@@ -65,6 +65,15 @@ cd quiz_app
 pip install -r requirements.txt
 ```
 
+## Environment
+
+Create a `.env` file in the project root
+
+```env
+BOT_TOKEN=your_bot_token
+ADMIN_ID=123456789
+```
+
 ## Usage
 
 ## Run Telegram Bot
@@ -74,6 +83,7 @@ Entry point: [bot.py](Application/api/bot.py)
 ## Run CLI version
 
 Entry point: [main.py](Application/cli/main.py)
+
 
 ## Logging
 
