@@ -51,32 +51,40 @@ def get_one_user_active(user_id):
 def deactivate_user(user_id):
     validate_user_id(user_id)
 
-    user_active = get_one_user_active(user_id)[0]
-    first_name = get_user_by_id(user_id)[1]
-    active = bool(user_active)
+    user_active = get_one_user_active(user_id)
+    first_name = get_user_by_id(user_id)
+
+    if not first_name:
+        raise ValueError(f"User {user_id} not found")
+
+    active = bool(user_active[0])
 
     if not active:
-        logger.warning(f"User {user_id} ({first_name}) already inactive")
+        logger.warning(f"User {user_id} ({first_name[1]}) already inactive")
         raise ValueError("User already inactive")
 
     update_deactivate_user(user_id)
 
-    logger.info(f"User {user_id} ({first_name}) deactivated")
+    logger.info(f"User {user_id} ({first_name[1]}) deactivated")
 
 def reactivate_user(user_id):
     validate_user_id(user_id)
 
-    user_active = get_one_user_active(user_id)[0]
-    first_name = get_user_by_id(user_id)[1]
-    active = bool(user_active)
+    user_active = get_one_user_active(user_id)
+    first_name = get_user_by_id(user_id)
+
+    if not first_name:
+        raise ValueError(f"User {user_id} not found")
+
+    active = bool(user_active[0])
 
     if active:
-        logger.warning(f"User {user_id} ({first_name}) already active")
+        logger.warning(f"User {user_id} ({first_name[1]}) already active")
         raise ValueError("User already active")
 
     update_activate_user(user_id)
 
-    logger.info(f"User {user_id} ({first_name}) reactivated")
+    logger.info(f"User {user_id} ({first_name[1]}) reactivated")
 
 def get_users_list():
     users = get_all_users()
