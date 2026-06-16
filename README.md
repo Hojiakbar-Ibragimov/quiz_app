@@ -78,7 +78,7 @@ ADMIN_ID=123456789
 
 ## Run Telegram Bot
 
-Entry point: [bot.py](Application/api/bot.py)
+Entry point: [main.py](Application/api/main.py)
 
 ## Run CLI version
 
