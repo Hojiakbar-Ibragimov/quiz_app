@@ -70,7 +70,7 @@ pip install -r requirements.txt
 Create a `.env` file in the project root
 
 ```env
-BOT_TOKEN=your_bot_token
+API_TOKEN=your_bot_api_token
 ADMIN_ID=123456789
 ```
 
