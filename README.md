@@ -16,7 +16,7 @@ From a technical perspective, the project follows a layered architecture consist
 - session tracking
 - profile
 - User statistics
-- Leaderboars
+- Leaderboards
 - change language
 - Logging
 
@@ -60,7 +60,7 @@ Handlers → Services → Repositories → Database
 ## Installation
 
 ```bash
-git clone <https://github.com/Hojiakbar-developer/quiz_app.git>
+git clone <https://github.com/Hojiakbar-Ibragimov/quiz_app.git>
 cd quiz_app
 pip install -r requirements.txt
 ```
