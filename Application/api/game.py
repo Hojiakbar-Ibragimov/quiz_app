@@ -139,7 +139,7 @@ def answers_inline_buttons(answers, user, context):
         [InlineKeyboardButton(text=f"{msg(lang, 'help').upper()}", callback_data="game:help")]
     ]
     return inline_buttons
-
+#
 def help_50_50_variants_buttons(new_variants):
     new_buttons = []
 

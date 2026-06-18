@@ -1,6 +1,7 @@
 from telegram.ext import Filters, MessageHandler, CallbackQueryHandler, Updater, CommandHandler
 
-from handlers import start_router, keyboard_router, query_router, change_lang_command_handler
+from router import start_router, query_router, keyboard_router
+from handlers.commands import change_lang_command_handler
 from quiz_app.config import API_TOKEN
 
 if not API_TOKEN:
