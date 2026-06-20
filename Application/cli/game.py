@@ -3,7 +3,7 @@ from quiz_app.service.user_service import (register_user, get_user_by_id, is_adm
 from quiz_app.service.profile_service import (get_users_profiles, get_user_played,
                                               get_rating, get_user_profile)
 from quiz_app.service.game_service import (update_current_question, start_session,
-                                            check_current_help_50_50, update_current_score,
+                                           check_current_help_50_50, update_current_score,
                                            get_current_score, get_all_sessions_history,
                                            get_all_answers_history, finish_game, submit_answer,
                                            save_answer, is_winner, get_help, view_user_answers, get_viewer_mode,

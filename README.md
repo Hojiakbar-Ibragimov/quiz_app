@@ -1,5 +1,9 @@
 # SimpleQuiz Bot
 
+Telegram Bot:
+
+[🤖 Open Telegram Bot](https://t.me/simplified_quiz_bot)
+
 ## Overview 
 
 The SimpleQuiz bot is a competitive Telegram-based quiz game where players answer randomly selected questions, earn points and scores with developable user statistics, and compete through a rating system. The project focuses on providing an engaging gameplay experience.                                                                                               
